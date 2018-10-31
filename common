@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+# 
+# common
+# 
+
+# Location of "scripts" folder
+INIT_SCRIPTS_FOLDER="${HOME}/scripts"
+
+# check if bash or zsh
+#if [[ ${0} = bash ]]; then
+#    source ${HOME}/.git-prompt.sh
+#    export GIT_PS1_SHOWDIRTYSTATE=1
+#    export GIT_PS1_SHOWUPSTREAM=auto
+#    export PROMPT_COMMAND='__git_ps1_custom "\[\033[01;34m\]\u@\h \[\033[01;32m\]\w\[\033[01;31m\]" " \[\033[39m\]\$\[\033[0m\] "'
+#fi
+
+# alias
+# arch linux alias
+alias inst='sudo pacman -S --noconfirm '
+alias rem='sudo pacman -Rns '
+alias upd='sudo pacman -Syu --noconfirm '
+alias ref='sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
+alias cu='checkupdates'
+
+# common alias
+alias ls='ls --color=auto'
+alias p1="patch -p1"
+alias cal='cal -m'
+alias rg='rg -i'
+
+# Setup build for LineageOS
+alias senv='source build/envsetup.sh'
+
+# Alias for flat script
+alias fk='flat-kernel'
+alias fl='flat-linux'
+
+# kernel related alias
+alias mido='cd ${KERNEL_FOLDER}/mido'
+alias los='cd ${LOS}'
+
+# specific alias for current machine
+[[ -f ${HOME}/.local_alias ]] && source ${HOME}/.local_alias
+
+source ${INIT_SCRIPTS_FOLDER}/common

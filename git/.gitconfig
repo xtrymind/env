@@ -1,0 +1,120 @@
+[user]
+	signingkey = A5473ACABEEB1B3C
+	email = xtrymind@gmail.com
+	name = Dede Dindin Qudsy
+[core]
+	editor = vim
+        whitespace = fix,trailing-space,cr-at-eol
+        commitGraph = true
+[merge]
+	log = true
+[commit]
+	gpgsign = true
+        status = true
+[format]
+	signoff = true
+[status]
+	short = true
+	branch = true
+	showStash = true
+	submoduleSummary = true
+[log]
+	abbrevCommit = true
+	decorate = short
+	date = format:%a, %Y-%m-%d %R (%z)
+	graphColors = 1,2,3,4,5,6,8,166,9,10,11,12,13,14,15,208
+	showRoot = true
+	mailmap = true
+[color]
+       advice = true
+	branch = true
+	diff = true
+	grep = true
+	interactive = true
+	pager = true
+	push = true
+	showBranch = true
+	status = true
+	transport = true
+	ui = true
+[color "diff"]
+	context = 15
+	meta = 4 bold reverse
+	frag = 3 bold reverse
+	commit = 3 bold
+	old = 9
+	new = 10
+	oldMoved = 8
+	newMoved = 14
+	whitespace = 1 reverse
+[color "status"]
+	header = 15 bold
+	added = 14 bold
+	changed = 11 bold
+	untracked = 9 bold
+	branch = 15 bold
+	nobranch = 9 bold reverse
+	localBranch = 2 bold
+	remoteBranch = 1 bold
+	unmerged = 1 bold reverse
+[gc]
+	auto = 0
+[alias]
+	aa = add --all
+	ac = commit --gpg-sign --all --signoff
+    ama = am --abort
+    amc = am --continue
+	ams = am --gpg-sign --signoff
+	ap = apply -3 -v
+	b = branch --verbose
+	bd = branch --delete --force
+	bn = rev-parse --abbrev-ref HEAD
+	bm = branch --move
+	bu = branch --unset-upstream
+	c = commit --gpg-sign --signoff -v
+	ca = commit --gpg-sign --amend --signoff
+	cad = !git commit --gpg-sign --amend --signoff --date=\"$(date)\"
+	cb = rev-parse --abbrev-ref HEAD
+	cf = diff --name-only --diff-filter=U
+	ch = checkout
+	cl = clean -fxd
+	cp = cherry-pick --gpg-sign --signoff
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
+	cpe = cherry-pick --edit --signoff
+	cpq = cherry-pick --quit
+	d = diff
+	dc = describe --contains
+	dfs = diff --stat
+	dfss = diff --shortstat
+	dh = diff HEAD
+	dhc = reset --hard HEAD^
+	f = fetch
+	fa = fetch --all
+	fm = commit --gpg-sign
+	fp = format-patch
+	kf = show -s --abbrev-commit --abbrev=12 --format=\"%h (\\\"%s\\\")\"
+	lo = log --oneline -100
+	m = merge --gpg-sign --signoff
+	ma = merge --abort
+	mc = merge --continue
+	pr = pull-request
+	psu = push --set-upstream
+	ra = "!f() { for i in $(git cf); do git rf $i; done }; f"
+	rb = rebase --gpg-sign
+	rba = rebase --abort
+	rbc = rebase --continue
+	rf = !bash -c \"git reset -q -- ${1} && git checkout -- ${1}\"
+	rh = reset --hard
+	rma = remote add
+	rmsu = remote set-url
+	rmv = remote -v
+	rs = reset --soft
+	rv = revert --gpg-sign --signoff
+	s = status
+	sh = show --first-parent
+	shf = show --first-parent --format=fuller
+	shm = show --no-patch
+	shmf = show --format=fuller --no-patch
+	ss = status --short --branch
+	us = reset HEAD

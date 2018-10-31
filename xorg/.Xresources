@@ -1,0 +1,87 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+!! Larger history limit
+urxvt.saveLines: 1000000
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+! scrollback in secondary buffer
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+URxvt.secondaryWheel: 1
+
+! Disable scrollbar
+URxvt.scrollBar: false
+
+!URxvt*font: xft:Hack:size=10
+!URxvt*font: xft:Ubuntu Mono:pixelsize=16:antialias=true:hinting=true
+!URxvt*font: xft:SF Mono:pixelsize=14:antialias=true:hinting=true
+URxvt*font: xft:Fira Mono:pixelsize=12:style=medium
+!URxvt*.letterSpace: -1
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! urxvt perl extensions
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+URxvt.url-select.launcher:  chromium
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+URxvt*perl-lib: /home/xtrymind/.urxvt-perl
+URxvt*perl-ext: unichr,matcher,-selection
+
+XTerm.vt100.faceName: Ubuntu Mono:pixelsize=16:antialias=true:hinting=true
+
+! special
+*.foreground:   #e6e1dc
+*.background:   #2b2b2b
+*.cursorColor:  #e6e1dc
+
+! black
+*.color0:       #2b2b2b
+*.color8:       #5a647e
+
+! red
+*.color1:       #da4939
+*.color9:       #da4939
+
+! green
+*.color2:       #a5c261
+*.color10:      #a5c261
+
+! yellow
+*.color3:       #ffc66d
+*.color11:      #ffc66d
+
+! blue
+*.color4:       #6d9cbe
+*.color12:      #6d9cbe
+
+! magenta
+*.color5:       #b6b3eb
+*.color13:      #b6b3eb
+
+! cyan
+*.color6:       #519f50
+*.color14:      #519f50
+
+! white
+*.color7:       #e6e1dc
+*.color15:      #f9f7f3
