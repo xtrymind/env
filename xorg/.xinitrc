@@ -31,4 +31,5 @@ udiskie &					# udiskie daemon
 nm-applet &                                   	# enable network manager applet
 pgrep redshift-gtk &> /dev/null || redshift-gtk &> /dev/null &
 xbindkeys &
+/home/xtrymind/.config/tumbler_fix.sh &
 exec i3                                       	# start i3
