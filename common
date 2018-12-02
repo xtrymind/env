@@ -7,12 +7,12 @@
 INIT_SCRIPTS_FOLDER="${HOME}/scripts"
 
 # check if bash or zsh
-#if [[ ${0} = bash ]]; then
-#    source ${HOME}/.git-prompt.sh
-#    export GIT_PS1_SHOWDIRTYSTATE=1
-#    export GIT_PS1_SHOWUPSTREAM=auto
-#    export PROMPT_COMMAND='__git_ps1_custom "\[\033[01;34m\]\u@\h \[\033[01;32m\]\w\[\033[01;31m\]" " \[\033[39m\]\$\[\033[0m\] "'
-#fi
+if [[ ${0} = bash ]]; then
+    source ${HOME}/.git-prompt.sh
+    export GIT_PS1_SHOWDIRTYSTATE=1
+    export GIT_PS1_SHOWUPSTREAM=auto
+    export PROMPT_COMMAND='__git_ps1_custom "\[\033[01;34m\]\u@\h \[\033[01;32m\]\w\[\033[01;31m\]" " \[\033[39m\]\$\[\033[0m\] "'
+fi
 
 # alias
 # arch linux alias
@@ -36,7 +36,7 @@ alias fk='flat-kernel'
 alias fl='flat-linux'
 
 # kernel related alias
-alias mido='cd ${KERNEL_FOLDER}/mido'
+alias x00t='cd ${KERNEL_FOLDER}/x00td'
 alias los='cd ${LOS}'
 
 # specific alias for current machine
