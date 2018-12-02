@@ -94,7 +94,7 @@
 	fm = commit --gpg-sign
 	fp = format-patch
 	kf = show -s --abbrev-commit --abbrev=12 --format=\"%h (\\\"%s\\\")\"
-	lo = log --oneline -100
+	lo = log --oneline
 	m = merge --gpg-sign --signoff
 	ma = merge --abort
 	mc = merge --continue
