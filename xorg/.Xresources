@@ -27,9 +27,9 @@ URxvt.secondaryWheel: 1
 URxvt.scrollBar: false
 
 !URxvt*font: xft:Hack:size=10
-!URxvt*font: xft:Ubuntu Mono:pixelsize=16:antialias=true:hinting=true
+URxvt*font: xft:Ubuntu Mono:pixelsize=14:antialias=true:hinting=true
 !URxvt*font: xft:SF Mono:pixelsize=14:antialias=true:hinting=true
-URxvt*font: xft:Fira Mono:pixelsize=12:style=medium
+!URxvt*font: xft:Fira Mono:pixelsize=12:style=medium
 !URxvt*.letterSpace: -1
 
 URxvt.iso14755: false
