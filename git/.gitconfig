@@ -4,13 +4,13 @@
 	name = Dede Dindin Qudsy
 [core]
 	editor = vim
-        whitespace = fix,trailing-space,cr-at-eol
-        commitGraph = true
+	whitespace = fix,trailing-space,cr-at-eol
+	commitGraph = true
 [merge]
 	log = true
 [commit]
 	gpgsign = true
-        status = true
+	status = true
 [format]
 	signoff = true
 [status]
@@ -62,8 +62,8 @@
 [alias]
 	aa = add --all
 	ac = commit --gpg-sign --all --signoff
-    ama = am --abort
-    amc = am --continue
+	ama = am --abort
+	amc = am --continue
 	ams = am -3 --gpg-sign --signoff
 	ap = apply -3 -v
 	b = branch --verbose
