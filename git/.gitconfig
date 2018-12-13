@@ -64,7 +64,7 @@
 	ac = commit --gpg-sign --all --signoff
     ama = am --abort
     amc = am --continue
-	ams = am --gpg-sign --signoff
+	ams = am -3 --gpg-sign --signoff
 	ap = apply -3 -v
 	b = branch --verbose
 	bd = branch --delete --force
