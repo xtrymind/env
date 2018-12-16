@@ -27,6 +27,7 @@ alias ls='ls --color=auto'
 alias p1="patch -p1"
 alias cal='cal -m'
 alias rg='rg -i'
+alias ge='geany '
 
 # Setup build for LineageOS
 alias senv='source build/envsetup.sh'
