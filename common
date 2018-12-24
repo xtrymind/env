@@ -39,6 +39,7 @@ alias fl='flat-linux'
 # kernel related alias
 alias x00t='cd ${KERNEL_FOLDER}/X00TD'
 alias los='cd ${LOS}'
+alias linux='cd ${HOME}/local/linux-kernel/linux/'
 
 # specific alias for current machine
 [[ -f ${HOME}/.local_alias ]] && source ${HOME}/.local_alias
