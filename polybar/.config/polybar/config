@@ -49,7 +49,7 @@ font-3 = "DejaVu Sans:style=Regular:size=10;3"
 
 modules-left = i3 xwindow 
 modules-center =
-modules-right = pkg eth-up eth cpu cpufreq memory temperature alsa date
+modules-right = pkg eth cpu cpufreq memory temperature alsa date
 
 tray-position = right
 tray-padding = 1
