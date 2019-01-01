@@ -108,6 +108,7 @@
 	rh = reset --hard
 	rma = remote add
 	rmsu = remote set-url
+	rmu = remote update
 	rmv = remote -v
 	rs = reset --soft
 	rv = revert --gpg-sign --signoff
