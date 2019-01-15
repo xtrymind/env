@@ -16,6 +16,14 @@
 " You should have received a copy of the GNU General Public License
 " along with this program.  If not, see <http://www.gnu.org/licenses/>
 
+call plug#begin()
+
+Plug 'airblade/vim-gitgutter'
+
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
+
 " Special indenting for C and Makefiles (since most will be kernel files)
 filetype plugin indent on
 
