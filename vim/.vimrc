@@ -43,6 +43,7 @@ set incsearch                               " Show search results in realtime
 set hlsearch                                " Highlight search matches
 set lazyredraw                              " Redraw only when we need to
 set mouse=a                                 " Enable mouse in all modes
+set updatetime=100
 
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
