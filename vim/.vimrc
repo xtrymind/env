@@ -5,6 +5,8 @@ Plug 'airblade/vim-gitgutter'
 
 Plug 'tpope/vim-fugitive'
 
+Plug 'ntpeters/vim-better-whitespace'
+
 call plug#end()
 
 " Special indenting for C and Makefiles (since most will be kernel files)
