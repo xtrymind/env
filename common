@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-# 
+#
 # common
-# 
+#
 
 # Location of "scripts" folder
 INIT_SCRIPTS_FOLDER="${HOME}/scripts"
 
 # check if bash or zsh
-if [[ ${0} = bash ]]; then
+if [[ ${0} == "bash" ]]; then
     source ${HOME}/.git-prompt.sh
     export GIT_PS1_SHOWDIRTYSTATE=1
     export GIT_PS1_SHOWUPSTREAM=auto
