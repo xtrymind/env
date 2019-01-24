@@ -21,6 +21,7 @@ bind '"\e[B": history-search-forward'
 # tab autocomplete
 bind 'TAB:menu-complete'
 bind 'set show-all-if-ambiguous on'
+bind "set menu-complete-display-prefix on"
 
 # ignore case-sensitive
 bind 'set completion-ignore-case on'
