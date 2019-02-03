@@ -26,10 +26,11 @@ URxvt.secondaryWheel: 1
 ! Disable scrollbar
 URxvt.scrollBar: false
 
-!URxvt*font: xft:Hack:size=10
+! Fonts
 URxvt*font: xft:Ubuntu Mono:pixelsize=14:antialias=true:hinting=true
-!URxvt*font: xft:SF Mono:pixelsize=14:antialias=true:hinting=true
-!URxvt*font: xft:Fira Mono:pixelsize=12:style=medium
+URxvt.boldFont: xft:Ubuntu Mono:pixelsize=14:antialias=true:hinting=true:style=Bold
+URxvt.italicFont: xft:Ubuntu Mono:pixelsize=14:antialias=true:hinting=true:style=Regular Italic
+URxvt.boldItalicFont: xft:Ubuntu Mono:pixelsize=14:antialias=true:hinting=true:style=Bold Italic
 !URxvt*.letterSpace: -1
 
 URxvt.iso14755: false
