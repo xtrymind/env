@@ -24,6 +24,7 @@
 	abbrevCommit = true
 	decorate = short
 	date = format:%a, %Y-%m-%d %R (%z)
+	date = human
 	graphColors = 1,2,3,4,5,6,8,166,9,10,11,12,13,14,15,208
 	showRoot = true
 	mailmap = true
