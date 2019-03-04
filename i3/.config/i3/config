@@ -202,7 +202,6 @@ bindsym $mod+r mode "resize"
 
 # autostart application
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id $HOME/.screenlayout/dual.sh
 #exec --no-startup-id google-chrome-unstable
 #exec_always --no-startup-id compton --config $HOME/.config/compton.conf -CGb --paint-on-overlay
 #exec --no-startup-id redshift
