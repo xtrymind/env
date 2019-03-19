@@ -81,8 +81,8 @@ cursor-click = pointer
 monitor = ${env:MONITOR:VGA-1}
 inherit = bar/i3
 
-modules-left =
-modules-center = i3
+modules-left = i3 xwindow
+modules-center =
 modules-right =
 
 tray-position = none
