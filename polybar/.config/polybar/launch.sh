@@ -8,7 +8,7 @@ while pgrep -x polybar >/dev/null; do sleep 1; done
 
 # Launch bar
 HOST=$(cat /etc/hostname)
-if [[ ${HOST} = "archBox" ]]; then
+if [[ ${HOST} = "arch" ]]; then
 	polybar -r i3 &
 	SECOND_MONITOR=$(xrandr | grep VGA-1)
 	if [[ -n ${SECOND_MONITOR} ]]; then
