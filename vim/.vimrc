@@ -7,6 +7,8 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'ntpeters/vim-better-whitespace'
 
+Plug 'vivien/vim-linux-coding-style'
+
 call plug#end()
 
 " Special indenting for C and Makefiles (since most will be kernel files)
@@ -34,6 +36,15 @@ set incsearch                               " Show search results in realtime
 set hlsearch                                " Highlight search matches
 set lazyredraw                              " Redraw only when we need to
 set mouse=a                                 " Enable mouse in all modes
+
+" Toggle color column
+function! TglCC()
+    if(&colorcolumn == 80)
+        set colorcolumn=0
+    else
+        set colorcolumn=80
+    endif
+endfunc
 
 " Vim updatetime for gitgutter
 set updatetime=100
