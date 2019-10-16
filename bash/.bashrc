@@ -12,7 +12,6 @@ PS1='[\u@\h \W]\$ '
 export ANDROID_HOME=${HOME}/Android/Sdk
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
 export PATH=${HOME}/scripts:$PATH
-export PATH="/usr/lib/ccache/bin/:$PATH"
 
 # history
 bind '"\e[A": history-search-backward'
