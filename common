@@ -39,7 +39,7 @@ alias fk='flat-kernel'
 alias fl='flat-linux'
 
 # kernel related alias
-alias x00t='cd ${KERNEL_FOLDER}/X00T'
+alias x00t='cd ${KERNEL_FOLDER}/kernel_asus_X00T'
 alias los='cd ${LOS}'
 alias linux='cd ${LINUX_FOLDER}'
 
