@@ -10,10 +10,6 @@ while pgrep -x polybar >/dev/null; do sleep 1; done
 HOST=$(cat /etc/hostname)
 if [[ ${HOST} = "arch" ]]; then
 	polybar -r i3 &
-	SECOND_MONITOR=$(xrandr | grep VGA-1)
-	if [[ -n ${SECOND_MONITOR} ]]; then
-		polybar -r i3_second &
-	fi
 else
 	polybar -r i3-a46c &
 fi
