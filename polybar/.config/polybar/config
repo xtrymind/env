@@ -28,7 +28,7 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/i3]
-monitor = ${env:MONITOR:DVI-I-2}
+monitor = ${env:MONITOR:DVI-I-3}
 width = 100%
 height = 20
 ;offset-x = 1%
