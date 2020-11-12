@@ -28,7 +28,7 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/i3]
-monitor = ${env:MONITOR:HDMI-1}
+monitor = ${env:MONITOR:DVI-I-2}
 width = 100%
 height = 20
 ;offset-x = 1%
@@ -284,7 +284,7 @@ format-disconnected =
 
 [module/eth]
 type = internal/network
-interface = enp2s0
+interface = enp3s0
 interval = 1.0
 
 format-connected-underline = #55aa55
