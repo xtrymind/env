@@ -2,6 +2,7 @@ aesni_intel
 aes_x86_64
 agpgart
 ahci
+at24
 atkbd
 blake2s_x86_64
 cec
@@ -26,6 +27,7 @@ ext4
 f2fs
 fat
 fb_sys_fops
+fixed_phy
 fuse
 ghash_clmulni_intel
 glue_helper
@@ -35,6 +37,7 @@ hid_logitech_dj
 hid_logitech_hidpp
 i2c_algo_bit
 i2c_i801
+i2c_smbus
 i8042
 i915
 input_leds
@@ -73,19 +76,24 @@ lz4_compress
 mac80211
 mac_hid
 mbcache
+mdio_devres
 mei
 mei_hdcp
 mei_me
 mousedev
 mt7601u
+mxm_wmi
 nls_cp437
 nls_iso8859_1
+nouveau
+of_mdio
 parport
 parport_pc
 poly1305_x86_64
 ppdev
 r8168
 r8169
+rapl
 rc_core
 realtek
 rfkill
@@ -98,6 +106,7 @@ ses
 snd
 snd_hda_codec
 snd_hda_codec_generic
+snd_hda_codec_hdmi
 snd_hda_codec_realtek
 snd_hda_core
 snd_hda_intel
@@ -109,6 +118,7 @@ soundcore
 syscopyarea
 sysfillrect
 sysimgblt
+ttm
 uas
 udp_tunnel
 usbhid
@@ -117,6 +127,7 @@ usbip_host
 usb_storage
 vfat
 wireguard
+wmi
 x86_pkg_temp_thermal
 xfs
 x_tables
