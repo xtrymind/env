@@ -21,6 +21,7 @@ alias rem='sudo pacman -Rns '
 alias upd='sudo pacman -Syu --noconfirm '
 alias ref='sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
 alias cu='checkupdates'
+alias mki='makepkg -si'
 
 # common alias
 alias ls='ls --color=auto'
