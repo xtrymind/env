@@ -165,6 +165,8 @@ format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
 
+enable-scroll = false
+
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
 
