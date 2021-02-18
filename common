@@ -43,7 +43,7 @@ alias ginkgo='cd ${KERNEL_FOLDER}/kernel_xiaomi_ginkgo'
 alias msm44='cd ${KERNEL_FOLDER}/msm-4.4'
 alias msm414='cd ${KERNEL_FOLDER}/msm-4.14'
 alias los='cd ${LOS}'
-alias linux='cd ${LINUX_FOLDER}'
+alias flinux='cd ${LINUX_FOLDER}'
 
 # specific alias for current machine
 [[ -f ${HOME}/.local_alias ]] && source ${HOME}/.local_alias
