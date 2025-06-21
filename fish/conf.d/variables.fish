@@ -2,6 +2,5 @@
 # SPDX-License-Identifier: MIT
 # Copyright (C) 2025 Dede Dindin Qudsy
 
-set -gx GPG_TTY (tty)
-start_ssh_agent
 
+set -gx LOCAL_BIN_FOLDER $HOME/.local/bin
